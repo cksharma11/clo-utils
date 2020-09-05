@@ -1,10 +1,23 @@
 # clo-utils
 
-A Clojure library designed to ... well, that part is up to you.
+Trying to create some more util functions on top of clojure inbuilt functions.
 
 ## Usage
 
-FIXME
+####Leiningen/Boot
+`[clo-utils "0.1.0-SNAPSHOT"]`
+
+####Clojure CLI/deps.edn
+`clo-utils {:mvn/version "0.1.0-SNAPSHOT"}`
+
+####Maven
+```
+<dependency>
+  <groupId>clo-utils</groupId>
+  <artifactId>clo-utils</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+</dependency>
+```
 
 ## License
 
