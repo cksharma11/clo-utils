@@ -1,5 +1,7 @@
 # clo-utils
 
+![clo-utils actions status](https://github.com/cksharma11/clo-utils/workflows/clojure.yml/badge.svg)
+
 Trying to create some more util functions on top of clojure inbuilt functions.
 
 ## Usage
