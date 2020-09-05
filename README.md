@@ -1,4 +1,7 @@
 # clo-utils
+[![Actions Status](https://github.com/cksharma11/clo-utils/workflows/Clojure%20CI/badge.svg)](https://github.com/cksharma11/clo-utils/actions)
+[![Clojars Project](https://img.shields.io/clojars/v/clo-utils.svg)](https://clojars.org/clo-utils)
+
 
 Trying to create some more util functions on top of clojure inbuilt functions.
 
