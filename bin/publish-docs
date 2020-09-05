@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+
+git checkout gh-pages
+
+echo "Removing old docs folder"
+rm -rf docs
+
+lein codox
+
+echo "Generated docs"
+
+mv target/doc/* docs
+
+echo "Moved docs to docs folder"
+
+git add .
+git commit -m "Publishing updated docs"
+git push origin gh-pages
+
+git checkout master
+
+echo "Updated docs are published on https://cksharma11.github.io/clo-utils/"
