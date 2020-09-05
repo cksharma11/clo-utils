@@ -6,5 +6,6 @@
   :dependencies [[org.clojure/clojure "1.10.0"]]
   :profiles {:kaocha {:dependencies [[lambdaisland/kaocha "1.0.672"]]}}
   :aliases {"kaocha" ["with-profile" "+kaocha" "run" "-m" "kaocha.runner"]}
-  :plugins [[lein-cljfmt "0.6.8"]]
+  :plugins [[lein-cljfmt "0.6.8"]
+            [lein-codox "0.10.7"]]
   :repl-options {:init-ns clo-utils.core})
