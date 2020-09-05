@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+cp bin/pre-commit .git/hooks/

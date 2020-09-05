@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+lein cljfmt check
+lein kaocha
