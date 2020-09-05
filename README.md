@@ -4,13 +4,13 @@ Trying to create some more util functions on top of clojure inbuilt functions.
 
 ## Usage
 
-####Leiningen/Boot
+#### Leiningen/Boot
 `[clo-utils "0.1.0-SNAPSHOT"]`
 
-####Clojure CLI/deps.edn
+#### Clojure CLI/deps.edn
 `clo-utils {:mvn/version "0.1.0-SNAPSHOT"}`
 
-####Maven
+#### Maven
 ```
 <dependency>
   <groupId>clo-utils</groupId>
