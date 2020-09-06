@@ -7,20 +7,27 @@ Trying to create some more util functions on top of clojure inbuilt functions.
 
 Docs : https://cksharma11.github.io/clo-utils/
 
+[![Clojars Project](http://clojars.org/clo-utils/latest-version.svg)](http://clojars.org/clo-utils)
+
 ## Usage
 
 #### Leiningen/Boot
-`[clo-utils "0.1.0-SNAPSHOT"]`
+Add in project.clj dependency
+``` clojure
+[clo-utils "0.2.0-SNAPSHOT"]
+```
 
 #### Clojure CLI/deps.edn
-`clo-utils {:mvn/version "0.1.0-SNAPSHOT"}`
+```clojure
+clo-utils {:mvn/version "0.2.0-SNAPSHOT"}
+```
 
 #### Maven
-```
+```xml
 <dependency>
   <groupId>clo-utils</groupId>
   <artifactId>clo-utils</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.2.0-SNAPSHOT</version>
 </dependency>
 ```
 
