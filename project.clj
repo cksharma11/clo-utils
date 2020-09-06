@@ -1,4 +1,4 @@
-(defproject clo-utils "0.1.2-SNAPSHOT"
+(defproject clo-utils "0.2.0-SNAPSHOT"
   :description "Some more util functions for clojure"
   :url "https://github.com/cksharma11/clo-utils"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
